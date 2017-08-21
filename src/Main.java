@@ -17,7 +17,11 @@ public class Main {
 		healthyHamburger.addhamburger2("Lettuce", 2.13);
 		healthyHamburger.addhamburger3("Cheeze", 2.13);
 		healthyHamburger.Healthyham1("Mozerealla Grilled", 2.41);
-		System.out.println("Total Burger cost will be"+healthyHamburger.itemizehamburger());
+		System.out.println("Total Burger cost will be"+healthyHamburger.itemizehamburger()+"\n");
+		
+		
+		DeluxBurger deluxBurger =new DeluxBurger();
+		System.out.println("Total Cost of the Burger with add on is "+deluxBurger.itemizehamburger());
 	
 	}
 }

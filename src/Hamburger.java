@@ -53,7 +53,7 @@ public class Hamburger {
 		
 		double hamburgerprice = this.price;
 		
-		System.out.println(this.name+" hamburger with "+this.meat+" on "+this.breadtype+" is available for"+this.price);
+		System.out.println(this.name+" hamburger with "+this.meat+" on "+this.breadtype+" is available for "+this.price);
 		if (additional1Name!=null){
 			hamburgerprice += this.additional1price;
 			System.out.println(this.additional1Name+" added with an extra price of "+this.additional1price);
